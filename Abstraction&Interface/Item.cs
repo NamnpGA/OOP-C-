@@ -11,6 +11,9 @@ namespace Abstraction_Interface
         public ItemType itemType;
         public Rarity rarity;
 
+        public float price;
+
+
         public float value 
         { 
             get => throw new NotImplementedException(); 
